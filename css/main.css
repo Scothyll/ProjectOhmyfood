@@ -1032,14 +1032,15 @@ footer {
   footer {
     width: 100%;
     background-color: #353535;
-    padding: 5%;
+    /* padding: 5% 0; */
     display: flex;
     align-items: stretch;
   }
 }
 
 .footer__container {
-  width: 90%;
+  /* width: 90%; */
+  margin: 5%;
   display: flex;
   align-items: flex-start;
   justify-content: left;
@@ -1137,7 +1138,7 @@ footer {
     position: relative;
   }
   .container--imageAndMenu--menuAndHeading {
-    position: absolute;
+    /* position: absolute; */
     width: 50%;
     border-radius: 40px;
     margin-top: auto;
@@ -1158,12 +1159,21 @@ footer {
     width: 100%;
   }
 }
-@media all and (min-width: 992px) {
-  .container--imageAndMenu--restaurant-img {
-    height: 160vh;
-  }
+
+.container--imageAndMenu {
+  background-image: url("../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  min-height: 100vh;
+  padding: 100px 0;
 }
 
+@media all and (max-width: 768px) {
+  .container--imageAndMenu {
+    padding: 0;
+    padding-top: 300px;
+    background-size: 100% 353px;
+    background-repeat: no-repeat;
+  }
+}
 @media all and (min-width: 992px) {
   .menu {
     height: 90%;
