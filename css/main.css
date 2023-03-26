@@ -8,11 +8,13 @@ img {
 }
 
 @font-face {
-  font-family: "Roboto Regular", sans-serif;
+  /* font-family: "Roboto Regular", sans-serif; */
+  font-family: sans-serif;
   src: url(../../fonts/Roboto-Regular.ttf);
 }
 @font-face {
-  font-family: "Shrikhand Regular", sans-serif;
+  font-family: sans-serif;
+  /* font-family: "Shrikhand Regular", sans-serif; */
   src: url(../../fonts/Shrikhand-Regular.ttf);
 }
 
@@ -125,7 +127,6 @@ img {
   padding-left: 40px;
   position: relative;
   border-radius: 20px;
-  align-items: left;
   background-color: #f6f6f6;
   height: 70px;
   margin: 10px;
