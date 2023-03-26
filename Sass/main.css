@@ -8,9 +8,9 @@ img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 @font-face {
@@ -22,403 +22,503 @@ img {
   src: url(../../fonts/Shrikhand-Regular.ttf);
 }
 .fade-in {
+  -webkit-animation: 1s ease 0s fade-in forwards;
   animation: 1s ease 0s fade-in forwards;
   opacity: 0;
 }
 
 .fade-in:nth-child(1) {
+  -webkit-animation-delay: 200ms;
   animation-delay: 200ms;
 }
 
 .fade-in:nth-child(2) {
+  -webkit-animation-delay: 400ms;
   animation-delay: 400ms;
 }
 
 .fade-in:nth-child(3) {
+  -webkit-animation-delay: 600ms;
   animation-delay: 600ms;
 }
 
 .fade-in:nth-child(4) {
+  -webkit-animation-delay: 800ms;
   animation-delay: 800ms;
 }
 
 .fade-in:nth-child(5) {
+  -webkit-animation-delay: 1000ms;
   animation-delay: 1000ms;
 }
 
 .fade-in:nth-child(6) {
+  -webkit-animation-delay: 1200ms;
   animation-delay: 1200ms;
 }
 
 .fade-in:nth-child(7) {
+  -webkit-animation-delay: 1400ms;
   animation-delay: 1400ms;
 }
 
 .fade-in:nth-child(8) {
+  -webkit-animation-delay: 1600ms;
   animation-delay: 1600ms;
 }
 
 .fade-in:nth-child(9) {
+  -webkit-animation-delay: 1800ms;
   animation-delay: 1800ms;
 }
 
 .fade-in:nth-child(10) {
+  -webkit-animation-delay: 2000ms;
   animation-delay: 2000ms;
 }
 
 .fade-in:nth-child(11) {
+  -webkit-animation-delay: 2200ms;
   animation-delay: 2200ms;
 }
 
 .fade-in:nth-child(12) {
+  -webkit-animation-delay: 2400ms;
   animation-delay: 2400ms;
 }
 
 .fade-in:nth-child(13) {
+  -webkit-animation-delay: 2600ms;
   animation-delay: 2600ms;
 }
 
 .fade-in:nth-child(14) {
+  -webkit-animation-delay: 2800ms;
   animation-delay: 2800ms;
 }
 
 .fade-in:nth-child(15) {
+  -webkit-animation-delay: 3000ms;
   animation-delay: 3000ms;
 }
 
 .fade-in:nth-child(16) {
+  -webkit-animation-delay: 3200ms;
   animation-delay: 3200ms;
 }
 
 .fade-in:nth-child(17) {
+  -webkit-animation-delay: 3400ms;
   animation-delay: 3400ms;
 }
 
 .fade-in:nth-child(18) {
+  -webkit-animation-delay: 3600ms;
   animation-delay: 3600ms;
 }
 
 .fade-in:nth-child(19) {
+  -webkit-animation-delay: 3800ms;
   animation-delay: 3800ms;
 }
 
 .fade-in:nth-child(20) {
+  -webkit-animation-delay: 4000ms;
   animation-delay: 4000ms;
 }
 
 .fade-in:nth-child(21) {
+  -webkit-animation-delay: 4200ms;
   animation-delay: 4200ms;
 }
 
 .fade-in:nth-child(22) {
+  -webkit-animation-delay: 4400ms;
   animation-delay: 4400ms;
 }
 
 .fade-in:nth-child(23) {
+  -webkit-animation-delay: 4600ms;
   animation-delay: 4600ms;
 }
 
 .fade-in:nth-child(24) {
+  -webkit-animation-delay: 4800ms;
   animation-delay: 4800ms;
 }
 
 .fade-in:nth-child(25) {
+  -webkit-animation-delay: 5000ms;
   animation-delay: 5000ms;
 }
 
 .fade-in:nth-child(26) {
+  -webkit-animation-delay: 5200ms;
   animation-delay: 5200ms;
 }
 
 .fade-in:nth-child(27) {
+  -webkit-animation-delay: 5400ms;
   animation-delay: 5400ms;
 }
 
 .fade-in:nth-child(28) {
+  -webkit-animation-delay: 5600ms;
   animation-delay: 5600ms;
 }
 
 .fade-in:nth-child(29) {
+  -webkit-animation-delay: 5800ms;
   animation-delay: 5800ms;
 }
 
 .fade-in:nth-child(30) {
+  -webkit-animation-delay: 6000ms;
   animation-delay: 6000ms;
 }
 
 .fade-in:nth-child(31) {
+  -webkit-animation-delay: 6200ms;
   animation-delay: 6200ms;
 }
 
 .fade-in:nth-child(32) {
+  -webkit-animation-delay: 6400ms;
   animation-delay: 6400ms;
 }
 
 .fade-in:nth-child(33) {
+  -webkit-animation-delay: 6600ms;
   animation-delay: 6600ms;
 }
 
 .fade-in:nth-child(34) {
+  -webkit-animation-delay: 6800ms;
   animation-delay: 6800ms;
 }
 
 .fade-in:nth-child(35) {
+  -webkit-animation-delay: 7000ms;
   animation-delay: 7000ms;
 }
 
 .fade-in:nth-child(36) {
+  -webkit-animation-delay: 7200ms;
   animation-delay: 7200ms;
 }
 
 .fade-in:nth-child(37) {
+  -webkit-animation-delay: 7400ms;
   animation-delay: 7400ms;
 }
 
 .fade-in:nth-child(38) {
+  -webkit-animation-delay: 7600ms;
   animation-delay: 7600ms;
 }
 
 .fade-in:nth-child(39) {
+  -webkit-animation-delay: 7800ms;
   animation-delay: 7800ms;
 }
 
 .fade-in:nth-child(40) {
+  -webkit-animation-delay: 8000ms;
   animation-delay: 8000ms;
 }
 
 .fade-in:nth-child(41) {
+  -webkit-animation-delay: 8200ms;
   animation-delay: 8200ms;
 }
 
 .fade-in:nth-child(42) {
+  -webkit-animation-delay: 8400ms;
   animation-delay: 8400ms;
 }
 
 .fade-in:nth-child(43) {
+  -webkit-animation-delay: 8600ms;
   animation-delay: 8600ms;
 }
 
 .fade-in:nth-child(44) {
+  -webkit-animation-delay: 8800ms;
   animation-delay: 8800ms;
 }
 
 .fade-in:nth-child(45) {
+  -webkit-animation-delay: 9000ms;
   animation-delay: 9000ms;
 }
 
 .fade-in:nth-child(46) {
+  -webkit-animation-delay: 9200ms;
   animation-delay: 9200ms;
 }
 
 .fade-in:nth-child(47) {
+  -webkit-animation-delay: 9400ms;
   animation-delay: 9400ms;
 }
 
 .fade-in:nth-child(48) {
+  -webkit-animation-delay: 9600ms;
   animation-delay: 9600ms;
 }
 
 .fade-in:nth-child(49) {
+  -webkit-animation-delay: 9800ms;
   animation-delay: 9800ms;
 }
 
 .fade-in:nth-child(50) {
+  -webkit-animation-delay: 10000ms;
   animation-delay: 10000ms;
 }
 
 .fade-in:nth-child(51) {
+  -webkit-animation-delay: 10200ms;
   animation-delay: 10200ms;
 }
 
 .fade-in:nth-child(52) {
+  -webkit-animation-delay: 10400ms;
   animation-delay: 10400ms;
 }
 
 .fade-in:nth-child(53) {
+  -webkit-animation-delay: 10600ms;
   animation-delay: 10600ms;
 }
 
 .fade-in:nth-child(54) {
+  -webkit-animation-delay: 10800ms;
   animation-delay: 10800ms;
 }
 
 .fade-in:nth-child(55) {
+  -webkit-animation-delay: 11000ms;
   animation-delay: 11000ms;
 }
 
 .fade-in:nth-child(56) {
+  -webkit-animation-delay: 11200ms;
   animation-delay: 11200ms;
 }
 
 .fade-in:nth-child(57) {
+  -webkit-animation-delay: 11400ms;
   animation-delay: 11400ms;
 }
 
 .fade-in:nth-child(58) {
+  -webkit-animation-delay: 11600ms;
   animation-delay: 11600ms;
 }
 
 .fade-in:nth-child(59) {
+  -webkit-animation-delay: 11800ms;
   animation-delay: 11800ms;
 }
 
 .fade-in:nth-child(60) {
+  -webkit-animation-delay: 12000ms;
   animation-delay: 12000ms;
 }
 
 .fade-in:nth-child(61) {
+  -webkit-animation-delay: 12200ms;
   animation-delay: 12200ms;
 }
 
 .fade-in:nth-child(62) {
+  -webkit-animation-delay: 12400ms;
   animation-delay: 12400ms;
 }
 
 .fade-in:nth-child(63) {
+  -webkit-animation-delay: 12600ms;
   animation-delay: 12600ms;
 }
 
 .fade-in:nth-child(64) {
+  -webkit-animation-delay: 12800ms;
   animation-delay: 12800ms;
 }
 
 .fade-in:nth-child(65) {
+  -webkit-animation-delay: 13000ms;
   animation-delay: 13000ms;
 }
 
 .fade-in:nth-child(66) {
+  -webkit-animation-delay: 13200ms;
   animation-delay: 13200ms;
 }
 
 .fade-in:nth-child(67) {
+  -webkit-animation-delay: 13400ms;
   animation-delay: 13400ms;
 }
 
 .fade-in:nth-child(68) {
+  -webkit-animation-delay: 13600ms;
   animation-delay: 13600ms;
 }
 
 .fade-in:nth-child(69) {
+  -webkit-animation-delay: 13800ms;
   animation-delay: 13800ms;
 }
 
 .fade-in:nth-child(70) {
+  -webkit-animation-delay: 14000ms;
   animation-delay: 14000ms;
 }
 
 .fade-in:nth-child(71) {
+  -webkit-animation-delay: 14200ms;
   animation-delay: 14200ms;
 }
 
 .fade-in:nth-child(72) {
+  -webkit-animation-delay: 14400ms;
   animation-delay: 14400ms;
 }
 
 .fade-in:nth-child(73) {
+  -webkit-animation-delay: 14600ms;
   animation-delay: 14600ms;
 }
 
 .fade-in:nth-child(74) {
+  -webkit-animation-delay: 14800ms;
   animation-delay: 14800ms;
 }
 
 .fade-in:nth-child(75) {
+  -webkit-animation-delay: 15000ms;
   animation-delay: 15000ms;
 }
 
 .fade-in:nth-child(76) {
+  -webkit-animation-delay: 15200ms;
   animation-delay: 15200ms;
 }
 
 .fade-in:nth-child(77) {
+  -webkit-animation-delay: 15400ms;
   animation-delay: 15400ms;
 }
 
 .fade-in:nth-child(78) {
+  -webkit-animation-delay: 15600ms;
   animation-delay: 15600ms;
 }
 
 .fade-in:nth-child(79) {
+  -webkit-animation-delay: 15800ms;
   animation-delay: 15800ms;
 }
 
 .fade-in:nth-child(80) {
+  -webkit-animation-delay: 16000ms;
   animation-delay: 16000ms;
 }
 
 .fade-in:nth-child(81) {
+  -webkit-animation-delay: 16200ms;
   animation-delay: 16200ms;
 }
 
 .fade-in:nth-child(82) {
+  -webkit-animation-delay: 16400ms;
   animation-delay: 16400ms;
 }
 
 .fade-in:nth-child(83) {
+  -webkit-animation-delay: 16600ms;
   animation-delay: 16600ms;
 }
 
 .fade-in:nth-child(84) {
+  -webkit-animation-delay: 16800ms;
   animation-delay: 16800ms;
 }
 
 .fade-in:nth-child(85) {
+  -webkit-animation-delay: 17000ms;
   animation-delay: 17000ms;
 }
 
 .fade-in:nth-child(86) {
+  -webkit-animation-delay: 17200ms;
   animation-delay: 17200ms;
 }
 
 .fade-in:nth-child(87) {
+  -webkit-animation-delay: 17400ms;
   animation-delay: 17400ms;
 }
 
 .fade-in:nth-child(88) {
+  -webkit-animation-delay: 17600ms;
   animation-delay: 17600ms;
 }
 
 .fade-in:nth-child(89) {
+  -webkit-animation-delay: 17800ms;
   animation-delay: 17800ms;
 }
 
 .fade-in:nth-child(90) {
+  -webkit-animation-delay: 18000ms;
   animation-delay: 18000ms;
 }
 
 .fade-in:nth-child(91) {
+  -webkit-animation-delay: 18200ms;
   animation-delay: 18200ms;
 }
 
 .fade-in:nth-child(92) {
+  -webkit-animation-delay: 18400ms;
   animation-delay: 18400ms;
 }
 
 .fade-in:nth-child(93) {
+  -webkit-animation-delay: 18600ms;
   animation-delay: 18600ms;
 }
 
 .fade-in:nth-child(94) {
+  -webkit-animation-delay: 18800ms;
   animation-delay: 18800ms;
 }
 
 .fade-in:nth-child(95) {
+  -webkit-animation-delay: 19000ms;
   animation-delay: 19000ms;
 }
 
 .fade-in:nth-child(96) {
+  -webkit-animation-delay: 19200ms;
   animation-delay: 19200ms;
 }
 
 .fade-in:nth-child(97) {
+  -webkit-animation-delay: 19400ms;
   animation-delay: 19400ms;
 }
 
 .fade-in:nth-child(98) {
+  -webkit-animation-delay: 19600ms;
   animation-delay: 19600ms;
 }
 
 .fade-in:nth-child(99) {
+  -webkit-animation-delay: 19800ms;
   animation-delay: 19800ms;
 }
 
@@ -434,7 +534,7 @@ img {
 }
 .loader {
   z-index: 9999;
-  background: #F6F6F6;
+  background: #f6f6f6;
   position: fixed;
   top: 0;
   left: 0;
@@ -450,8 +550,8 @@ img {
 }
 .loader--spinner {
   z-index: 999999;
-  border: 15px solid #9356DC;
-  border-top-color: #FF79DA;
+  border: 15px solid #9356dc;
+  border-top-color: #ff79da;
   opacity: 0.75;
   width: 75px;
   height: 75px;
@@ -474,7 +574,7 @@ img {
 }
 
 .button1 {
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(#ff79da, #9356dc);
   font-family: "Roboto Regular", sans-serif;
   letter-spacing: 0.3px;
   font-size: large;
@@ -492,7 +592,8 @@ img {
   filter: brightness(110%);
 }
 
-.explainer, .explainer--2 {
+.explainer,
+.explainer--2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -504,7 +605,7 @@ img {
   position: relative;
   border-radius: 20px;
   align-items: left;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   height: 70px;
   margin: 10px;
   font-weight: 600;
@@ -519,7 +620,7 @@ img {
   height: 30px;
   width: 30px;
   border-radius: 100px;
-  background-color: #9356DC;
+  background-color: #9356dc;
   color: #fff;
 }
 .explainer--icon {
@@ -532,7 +633,7 @@ img {
   background-color: rgba(147, 86, 220, 0.1);
 }
 .explainer--2--icon {
-  color: #9356DC;
+  color: #9356dc;
 }
 
 .card {
@@ -547,7 +648,7 @@ img {
   box-shadow: 5px 5px 15px gray;
 }
 .card:hover .card__bottom {
-  color: #9356DC;
+  color: #9356dc;
 }
 .card a {
   text-decoration: none;
@@ -566,7 +667,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-color: #A1E1D0;
+  background-color: #a1e1d0;
   color: #258666;
   font-weight: 600;
   top: 20px;
@@ -597,7 +698,7 @@ img {
 }
 .card__heart--full {
   transition: all 0.6s ease-in-out;
-  color: #9356DC;
+  color: #9356dc;
   opacity: 0;
   position: absolute;
   top: -10px;
@@ -662,7 +763,7 @@ img {
   }
 }
 .menu__subheading__border {
-  border-bottom: 3px solid #99E2D0;
+  border-bottom: 3px solid #99e2d0;
   width: 7%;
   margin-top: -10px;
 }
@@ -738,7 +839,7 @@ img {
   flex-direction: row;
   color: #fff;
   font-size: x-large;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   width: 0%;
   height: 100%;
   transform: translateX(100px);
@@ -779,10 +880,18 @@ header .back-arrow a {
   color: #353535;
 }
 header .back-arrow a :hover {
-  color: #9356DC;
+  color: #9356dc;
 }
 
-.container, .container--imageAndMenu, .container--imageAndMenu--menuAndHeading, .container--order, .container--pictureAndMenu, .container--howItWorks--cards, .container--howItWorks, .container--restaurants, .container--booking {
+.container,
+.container--imageAndMenu,
+.container--imageAndMenu--menuAndHeading,
+.container--order,
+.container--pictureAndMenu,
+.container--howItWorks--cards,
+.container--howItWorks,
+.container--restaurants,
+.container--booking {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -793,7 +902,7 @@ header .back-arrow a :hover {
   width: 100%;
 }
 .container--booking {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding: 30px 0;
 }
 .container--booking .subheading {
@@ -806,7 +915,7 @@ header .back-arrow a :hover {
 }
 .container--restaurants__cards {
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .container--search {
   display: flex;
@@ -814,7 +923,7 @@ header .back-arrow a :hover {
   justify-content: center;
   flex-direction: row;
   width: 100%;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   height: 50px;
   box-shadow: inset 0px 2px 5px 0px lightgray;
 }
@@ -842,11 +951,11 @@ header .back-arrow a :hover {
   padding: 30px 0;
 }
 .container--order {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding-bottom: 80px;
 }
 .container--imageAndMenu--menuAndHeading {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   border-radius: 40px 40px 0 0;
   margin-top: -40px;
   margin-bottom: 0;
@@ -951,7 +1060,8 @@ footer {
     width: 90%;
     justify-content: space-around;
   }
-  .container--howItWorks--cards .explainer, .container--howItWorks--cards .explainer--2 {
+  .container--howItWorks--cards .explainer,
+  .container--howItWorks--cards .explainer--2 {
     margin: 0 20px;
   }
 }
@@ -964,7 +1074,8 @@ footer {
     width: 90%;
     justify-content: space-around;
   }
-  .container--howItWorks--cards .explainer, .container--howItWorks--cards .explainer--2 {
+  .container--howItWorks--cards .explainer,
+  .container--howItWorks--cards .explainer--2 {
     margin: 0 20px;
   }
 }
@@ -978,7 +1089,8 @@ footer {
   }
 }
 @media all and (min-width: 992px) {
-  .container--imageAndMenu, .container--imageAndMenu--menuAndHeading {
+  .container--imageAndMenu,
+  .container--imageAndMenu--menuAndHeading {
     position: relative;
   }
   .container--imageAndMenu--menuAndHeading {
@@ -1032,12 +1144,14 @@ footer {
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
-  .explainer, .explainer--2 {
+  .explainer,
+  .explainer--2 {
     width: 30%;
   }
 }
 @media all and (min-width: 992px) {
-  .explainer, .explainer--2 {
+  .explainer,
+  .explainer--2 {
     width: 30%;
   }
 }
@@ -1061,4 +1175,4 @@ footer {
     width: 80%;
     justify-content: space-between;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
