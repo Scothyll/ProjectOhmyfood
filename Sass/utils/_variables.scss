@@ -1,45 +1,43 @@
-$colour-primary: #9356DC;
+$colour-primary: #9356dc;
 $colour-primary-opaque: rgb(147, 86, 220, 0.1);
-$colour-secondary: #FF79DA;
+$colour-secondary: #ff79da;
 $colour-secondary-opaque: rgb(255, 121, 218, 0.4);
-$colour-tertiary: #99E2D0;
-$colour-accent: #D6FFF5;
+$colour-tertiary: #99e2d0;
+$colour-accent: #d6fff5;
 $colour-white: #fff;
-$colour-invalid: #DB464B;
-$colour-background: #F6F6F6;
-$new-tag-background-color: #A1E1D0;
+$colour-invalid: #db464b;
+$colour-background: #f6f6f6;
+$new-tag-background-color: #a1e1d0;
 $new-tag-text-color: #258666;
 $charcoal: #353535;
 
-$heading-shadow-size: .55rem;
+$heading-shadow-size: 0.55rem;
 $layout-margin: 6rem;
-$grid-gutter: $layout-margin * .25;
+$grid-gutter: $layout-margin * 0.25;
 
 $txt-size: 20px;
 $somePadding: 20px;
 
 $breakpoints: (
-    "mobile": 0px,
-    "tablet": 768px,
-    "desktop": 992px,
+  "mobile": 0px,
+  "tablet": 768px,
+  "desktop": 992px,
 );
 
 $shadow-box: 5px 5px 15px lightgrey;
 $shadow-box-dark: 5px 5px 15px gray;
 
 $widths: (
-    "100Percent": 100%,
-    "90Percent": 90%,
-    "80Percent": 80%,
-    "70Percent": 70%,
-    "60Percent": 60%,
-    "50Percent": 50%,
-    "40Percent": 40%,
-    "30Percent": 30%,
-    "20Percent": 20%,
-
+  "100Percent": 100%,
+  "90Percent": 90%,
+  "80Percent": 80%,
+  "70Percent": 70%,
+  "60Percent": 60%,
+  "50Percent": 50%,
+  "40Percent": 40%,
+  "30Percent": 30%,
+  "20Percent": 20%,
 );
-
 
 $borderradius: 20px;
 $spacedLetters: 0.3px;

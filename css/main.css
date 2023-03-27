@@ -1,11 +1,506 @@
-@font-face {
-  font-family: "Roboto Regular";
-  src: url(../../fonts/Roboto-Regular.ttf);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
+
+.fade-in {
+  -webkit-animation: 1s ease 0s fade-in forwards;
+  animation: 1s ease 0s fade-in forwards;
+  opacity: 0;
 }
-@font-face {
-  font-family: "Shrikhand Regular";
-  src: url(../../fonts/Shrikhand-Regular.ttf);
+
+.fade-in:nth-child(1) {
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
 }
+
+.fade-in:nth-child(2) {
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.fade-in:nth-child(3) {
+  -webkit-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.fade-in:nth-child(4) {
+  -webkit-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+.fade-in:nth-child(5) {
+  -webkit-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+.fade-in:nth-child(6) {
+  -webkit-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+}
+
+.fade-in:nth-child(7) {
+  -webkit-animation-delay: 1400ms;
+  animation-delay: 1400ms;
+}
+
+.fade-in:nth-child(8) {
+  -webkit-animation-delay: 1600ms;
+  animation-delay: 1600ms;
+}
+
+.fade-in:nth-child(9) {
+  -webkit-animation-delay: 1800ms;
+  animation-delay: 1800ms;
+}
+
+.fade-in:nth-child(10) {
+  -webkit-animation-delay: 2000ms;
+  animation-delay: 2000ms;
+}
+
+.fade-in:nth-child(11) {
+  -webkit-animation-delay: 2200ms;
+  animation-delay: 2200ms;
+}
+
+.fade-in:nth-child(12) {
+  -webkit-animation-delay: 2400ms;
+  animation-delay: 2400ms;
+}
+
+.fade-in:nth-child(13) {
+  -webkit-animation-delay: 2600ms;
+  animation-delay: 2600ms;
+}
+
+.fade-in:nth-child(14) {
+  -webkit-animation-delay: 2800ms;
+  animation-delay: 2800ms;
+}
+
+.fade-in:nth-child(15) {
+  -webkit-animation-delay: 3000ms;
+  animation-delay: 3000ms;
+}
+
+.fade-in:nth-child(16) {
+  -webkit-animation-delay: 3200ms;
+  animation-delay: 3200ms;
+}
+
+.fade-in:nth-child(17) {
+  -webkit-animation-delay: 3400ms;
+  animation-delay: 3400ms;
+}
+
+.fade-in:nth-child(18) {
+  -webkit-animation-delay: 3600ms;
+  animation-delay: 3600ms;
+}
+
+.fade-in:nth-child(19) {
+  -webkit-animation-delay: 3800ms;
+  animation-delay: 3800ms;
+}
+
+.fade-in:nth-child(20) {
+  -webkit-animation-delay: 4000ms;
+  animation-delay: 4000ms;
+}
+
+.fade-in:nth-child(21) {
+  -webkit-animation-delay: 4200ms;
+  animation-delay: 4200ms;
+}
+
+.fade-in:nth-child(22) {
+  -webkit-animation-delay: 4400ms;
+  animation-delay: 4400ms;
+}
+
+.fade-in:nth-child(23) {
+  -webkit-animation-delay: 4600ms;
+  animation-delay: 4600ms;
+}
+
+.fade-in:nth-child(24) {
+  -webkit-animation-delay: 4800ms;
+  animation-delay: 4800ms;
+}
+
+.fade-in:nth-child(25) {
+  -webkit-animation-delay: 5000ms;
+  animation-delay: 5000ms;
+}
+
+.fade-in:nth-child(26) {
+  -webkit-animation-delay: 5200ms;
+  animation-delay: 5200ms;
+}
+
+.fade-in:nth-child(27) {
+  -webkit-animation-delay: 5400ms;
+  animation-delay: 5400ms;
+}
+
+.fade-in:nth-child(28) {
+  -webkit-animation-delay: 5600ms;
+  animation-delay: 5600ms;
+}
+
+.fade-in:nth-child(29) {
+  -webkit-animation-delay: 5800ms;
+  animation-delay: 5800ms;
+}
+
+.fade-in:nth-child(30) {
+  -webkit-animation-delay: 6000ms;
+  animation-delay: 6000ms;
+}
+
+.fade-in:nth-child(31) {
+  -webkit-animation-delay: 6200ms;
+  animation-delay: 6200ms;
+}
+
+.fade-in:nth-child(32) {
+  -webkit-animation-delay: 6400ms;
+  animation-delay: 6400ms;
+}
+
+.fade-in:nth-child(33) {
+  -webkit-animation-delay: 6600ms;
+  animation-delay: 6600ms;
+}
+
+.fade-in:nth-child(34) {
+  -webkit-animation-delay: 6800ms;
+  animation-delay: 6800ms;
+}
+
+.fade-in:nth-child(35) {
+  -webkit-animation-delay: 7000ms;
+  animation-delay: 7000ms;
+}
+
+.fade-in:nth-child(36) {
+  -webkit-animation-delay: 7200ms;
+  animation-delay: 7200ms;
+}
+
+.fade-in:nth-child(37) {
+  -webkit-animation-delay: 7400ms;
+  animation-delay: 7400ms;
+}
+
+.fade-in:nth-child(38) {
+  -webkit-animation-delay: 7600ms;
+  animation-delay: 7600ms;
+}
+
+.fade-in:nth-child(39) {
+  -webkit-animation-delay: 7800ms;
+  animation-delay: 7800ms;
+}
+
+.fade-in:nth-child(40) {
+  -webkit-animation-delay: 8000ms;
+  animation-delay: 8000ms;
+}
+
+.fade-in:nth-child(41) {
+  -webkit-animation-delay: 8200ms;
+  animation-delay: 8200ms;
+}
+
+.fade-in:nth-child(42) {
+  -webkit-animation-delay: 8400ms;
+  animation-delay: 8400ms;
+}
+
+.fade-in:nth-child(43) {
+  -webkit-animation-delay: 8600ms;
+  animation-delay: 8600ms;
+}
+
+.fade-in:nth-child(44) {
+  -webkit-animation-delay: 8800ms;
+  animation-delay: 8800ms;
+}
+
+.fade-in:nth-child(45) {
+  -webkit-animation-delay: 9000ms;
+  animation-delay: 9000ms;
+}
+
+.fade-in:nth-child(46) {
+  -webkit-animation-delay: 9200ms;
+  animation-delay: 9200ms;
+}
+
+.fade-in:nth-child(47) {
+  -webkit-animation-delay: 9400ms;
+  animation-delay: 9400ms;
+}
+
+.fade-in:nth-child(48) {
+  -webkit-animation-delay: 9600ms;
+  animation-delay: 9600ms;
+}
+
+.fade-in:nth-child(49) {
+  -webkit-animation-delay: 9800ms;
+  animation-delay: 9800ms;
+}
+
+.fade-in:nth-child(50) {
+  -webkit-animation-delay: 10000ms;
+  animation-delay: 10000ms;
+}
+
+.fade-in:nth-child(51) {
+  -webkit-animation-delay: 10200ms;
+  animation-delay: 10200ms;
+}
+
+.fade-in:nth-child(52) {
+  -webkit-animation-delay: 10400ms;
+  animation-delay: 10400ms;
+}
+
+.fade-in:nth-child(53) {
+  -webkit-animation-delay: 10600ms;
+  animation-delay: 10600ms;
+}
+
+.fade-in:nth-child(54) {
+  -webkit-animation-delay: 10800ms;
+  animation-delay: 10800ms;
+}
+
+.fade-in:nth-child(55) {
+  -webkit-animation-delay: 11000ms;
+  animation-delay: 11000ms;
+}
+
+.fade-in:nth-child(56) {
+  -webkit-animation-delay: 11200ms;
+  animation-delay: 11200ms;
+}
+
+.fade-in:nth-child(57) {
+  -webkit-animation-delay: 11400ms;
+  animation-delay: 11400ms;
+}
+
+.fade-in:nth-child(58) {
+  -webkit-animation-delay: 11600ms;
+  animation-delay: 11600ms;
+}
+
+.fade-in:nth-child(59) {
+  -webkit-animation-delay: 11800ms;
+  animation-delay: 11800ms;
+}
+
+.fade-in:nth-child(60) {
+  -webkit-animation-delay: 12000ms;
+  animation-delay: 12000ms;
+}
+
+.fade-in:nth-child(61) {
+  -webkit-animation-delay: 12200ms;
+  animation-delay: 12200ms;
+}
+
+.fade-in:nth-child(62) {
+  -webkit-animation-delay: 12400ms;
+  animation-delay: 12400ms;
+}
+
+.fade-in:nth-child(63) {
+  -webkit-animation-delay: 12600ms;
+  animation-delay: 12600ms;
+}
+
+.fade-in:nth-child(64) {
+  -webkit-animation-delay: 12800ms;
+  animation-delay: 12800ms;
+}
+
+.fade-in:nth-child(65) {
+  -webkit-animation-delay: 13000ms;
+  animation-delay: 13000ms;
+}
+
+.fade-in:nth-child(66) {
+  -webkit-animation-delay: 13200ms;
+  animation-delay: 13200ms;
+}
+
+.fade-in:nth-child(67) {
+  -webkit-animation-delay: 13400ms;
+  animation-delay: 13400ms;
+}
+
+.fade-in:nth-child(68) {
+  -webkit-animation-delay: 13600ms;
+  animation-delay: 13600ms;
+}
+
+.fade-in:nth-child(69) {
+  -webkit-animation-delay: 13800ms;
+  animation-delay: 13800ms;
+}
+
+.fade-in:nth-child(70) {
+  -webkit-animation-delay: 14000ms;
+  animation-delay: 14000ms;
+}
+
+.fade-in:nth-child(71) {
+  -webkit-animation-delay: 14200ms;
+  animation-delay: 14200ms;
+}
+
+.fade-in:nth-child(72) {
+  -webkit-animation-delay: 14400ms;
+  animation-delay: 14400ms;
+}
+
+.fade-in:nth-child(73) {
+  -webkit-animation-delay: 14600ms;
+  animation-delay: 14600ms;
+}
+
+.fade-in:nth-child(74) {
+  -webkit-animation-delay: 14800ms;
+  animation-delay: 14800ms;
+}
+
+.fade-in:nth-child(75) {
+  -webkit-animation-delay: 15000ms;
+  animation-delay: 15000ms;
+}
+
+.fade-in:nth-child(76) {
+  -webkit-animation-delay: 15200ms;
+  animation-delay: 15200ms;
+}
+
+.fade-in:nth-child(77) {
+  -webkit-animation-delay: 15400ms;
+  animation-delay: 15400ms;
+}
+
+.fade-in:nth-child(78) {
+  -webkit-animation-delay: 15600ms;
+  animation-delay: 15600ms;
+}
+
+.fade-in:nth-child(79) {
+  -webkit-animation-delay: 15800ms;
+  animation-delay: 15800ms;
+}
+
+.fade-in:nth-child(80) {
+  -webkit-animation-delay: 16000ms;
+  animation-delay: 16000ms;
+}
+
+.fade-in:nth-child(81) {
+  -webkit-animation-delay: 16200ms;
+  animation-delay: 16200ms;
+}
+
+.fade-in:nth-child(82) {
+  -webkit-animation-delay: 16400ms;
+  animation-delay: 16400ms;
+}
+
+.fade-in:nth-child(83) {
+  -webkit-animation-delay: 16600ms;
+  animation-delay: 16600ms;
+}
+
+.fade-in:nth-child(84) {
+  -webkit-animation-delay: 16800ms;
+  animation-delay: 16800ms;
+}
+
+.fade-in:nth-child(85) {
+  -webkit-animation-delay: 17000ms;
+  animation-delay: 17000ms;
+}
+
+.fade-in:nth-child(86) {
+  -webkit-animation-delay: 17200ms;
+  animation-delay: 17200ms;
+}
+
+.fade-in:nth-child(87) {
+  -webkit-animation-delay: 17400ms;
+  animation-delay: 17400ms;
+}
+
+.fade-in:nth-child(88) {
+  -webkit-animation-delay: 17600ms;
+  animation-delay: 17600ms;
+}
+
+.fade-in:nth-child(89) {
+  -webkit-animation-delay: 17800ms;
+  animation-delay: 17800ms;
+}
+
+.fade-in:nth-child(90) {
+  -webkit-animation-delay: 18000ms;
+  animation-delay: 18000ms;
+}
+
+.fade-in:nth-child(91) {
+  -webkit-animation-delay: 18200ms;
+  animation-delay: 18200ms;
+}
+
+.fade-in:nth-child(92) {
+  -webkit-animation-delay: 18400ms;
+  animation-delay: 18400ms;
+}
+
+.fade-in:nth-child(93) {
+  -webkit-animation-delay: 18600ms;
+  animation-delay: 18600ms;
+}
+
+.fade-in:nth-child(94) {
+  -webkit-animation-delay: 18800ms;
+  animation-delay: 18800ms;
+}
+
+.fade-in:nth-child(95) {
+  -webkit-animation-delay: 19000ms;
+  animation-delay: 19000ms;
+}
+
+.fade-in:nth-child(96) {
+  -webkit-animation-delay: 19200ms;
+  animation-delay: 19200ms;
+}
+
+.fade-in:nth-child(97) {
+  -webkit-animation-delay: 19400ms;
+  animation-delay: 19400ms;
+}
+
+.fade-in:nth-child(98) {
+  -webkit-animation-delay: 19600ms;
+  animation-delay: 19600ms;
+}
+
+.fade-in:nth-child(99) {
+  -webkit-animation-delay: 19800ms;
+  animation-delay: 19800ms;
+}
+
 @-webkit-keyframes fade-in {
   0% {
     transform: translateY(20px);
@@ -27,18 +522,35 @@
     opacity: 1;
   }
 }
-
-@keyframes fade-in {
-  0% {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.loader {
+  z-index: 9999;
+  background: #f6f6f6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  -webkit-animation: disappear 1000ms ease 1000ms;
+  animation: disappear 1000ms ease 1000ms;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  transition: opacity 1000ms, visibility 1000ms;
 }
-
+.loader--spinner {
+  z-index: 999999;
+  border: 15px solid #9356dc;
+  border-top-color: #ff79da;
+  opacity: 0.75;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  -webkit-animation: loading 1000ms ease infinite;
+  animation: loading 1000ms ease infinite;
+}
 @-webkit-keyframes loading {
   from {
     transform: rotate(0turn);
@@ -68,6 +580,22 @@
   }
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
 .button1 {
   background: linear-gradient(#ff79da, #9356dc);
   font-family: "Roboto Regular", sans-serif;
@@ -78,6 +606,7 @@
   border: none;
   border-radius: 50px;
   color: #fff;
+  width: 50%;
   cursor: pointer;
   transition: filter 300ms 100ms, box-shadow 300ms;
 }
@@ -98,7 +627,6 @@
   padding-left: 40px;
   position: relative;
   border-radius: 20px;
-  align-items: left;
   background-color: #f6f6f6;
   height: 70px;
   margin: 10px;
@@ -129,13 +657,7 @@
 .explainer--2--icon {
   color: #9356dc;
 }
-.card__heart--full i::before {
-  background: linear-gradient(#ff79da, #9356dc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: #9356dc;
-}
+
 .card {
   box-shadow: 5px 5px 15px lightgrey;
   width: 90%;
@@ -146,9 +668,6 @@
 }
 .card:hover {
   box-shadow: 5px 5px 15px gray;
-}
-.card:hover .card__bottom {
-  color: #9356dc;
 }
 .card a {
   text-decoration: none;
@@ -183,6 +702,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.card__bottom:hover {
+  color: #9356dc;
+}
 .card__text {
   padding-left: 20px;
 }
@@ -198,7 +720,10 @@
 }
 .card__heart--full {
   transition: all 0.6s ease-in-out;
-  color: #9356dc;
+  background-image: linear-gradient(#9356dc, #ff79da);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   opacity: 0;
   position: absolute;
   top: -10px;
@@ -212,17 +737,16 @@
   width: 90%;
   justify-content: space-between;
   position: relative;
-  margin-top: 20px;
   display: flex;
+  margin-top: 20px;
 }
 .restaurant-heading__title {
   display: flex;
   align-items: flex-start;
   justify-content: left;
   flex-direction: row;
-  font-family: "Shrikhand-Regular", "sans-serif";
-  font-size: 40px;
-  font-weight: bold;
+  font-family: "Shrikhand", cursive;
+  font-size: 30px;
 }
 .restaurant-heading .card__heart {
   position: relative;
@@ -247,21 +771,7 @@
   justify-items: flex-start;
   text-transform: uppercase;
   margin-bottom: 15px;
-}
-@media all and (min-width: 0px) {
-  .menu__subheading {
-    width: 90%;
-  }
-}
-@media all and (min-width: 768px) and (max-width: 992px) {
-  .menu__subheading {
-    width: 80%;
-  }
-}
-@media all and (min-width: 992px) {
-  .menu__subheading {
-    width: 60%;
-  }
+  width: 90%;
 }
 .menu__subheading__border {
   border-bottom: 3px solid #99e2d0;
@@ -279,21 +789,7 @@
   box-shadow: 5px 5px 15px lightgrey;
   overflow: hidden;
   margin-bottom: 20px;
-}
-@media all and (min-width: 0px) {
-  .menu__item {
-    width: 90%;
-  }
-}
-@media all and (min-width: 768px) and (max-width: 992px) {
-  .menu__item {
-    width: 80%;
-  }
-}
-@media all and (min-width: 992px) {
-  .menu__item {
-    width: 60%;
-  }
+  width: 90%;
 }
 .menu__item__text {
   padding: 0 0 0 20px;
@@ -301,7 +797,7 @@
   transition: ease-in-out 300ms;
 }
 .menu__item__text__name {
-  font-size: 20px;
+  font-size: large;
   font-weight: bold;
 }
 .menu__item__text__name p {
@@ -309,20 +805,18 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .menu__item__text__description {
   position: relative;
-  font-size: 18px;
+  font-size: medium;
 }
 .menu__item__text__description p {
   margin-bottom: 5px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 21px;
 }
 .menu__item:hover .menu__item__text {
-  width: 75%;
+  width: 80%;
 }
 .menu__item__price {
   display: flex;
@@ -355,7 +849,6 @@
 .menu__item:hover .menu__item__checkmark {
   transform: translateX(0);
   width: 15%;
-  min-width: 15%;
 }
 .menu__item:hover i {
   transform: rotate(0deg);
@@ -388,8 +881,8 @@ header .back-arrow a :hover {
 }
 
 .container,
-.container--imageAndMenu,
 .container--imageAndMenu--menuAndHeading,
+.container--imageAndMenu,
 .container--order,
 .container--pictureAndMenu,
 .container--howItWorks--cards,
@@ -404,6 +897,7 @@ header .back-arrow a :hover {
   letter-spacing: 0.3px;
   font-size: large;
   width: 100%;
+  position: relative;
 }
 .container--booking {
   background-color: #f6f6f6;
@@ -418,8 +912,12 @@ header .back-arrow a :hover {
   font-weight: 100;
 }
 .container--restaurants__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
-  /* padding: 20px; */
+  padding: 20px 0;
 }
 .container--search {
   display: flex;
@@ -442,10 +940,16 @@ header .back-arrow a :hover {
 .container--search input:focus::-moz-placeholder {
   color: transparent;
 }
+.container--search input:focus:-ms-input-placeholder {
+  color: transparent;
+}
 .container--search input:focus::placeholder {
   color: transparent;
 }
 .container--search ::-moz-placeholder {
+  color: black;
+}
+.container--search :-ms-input-placeholder {
   color: black;
 }
 .container--search ::placeholder {
@@ -455,8 +959,12 @@ header .back-arrow a :hover {
   padding: 30px 0;
 }
 .container--order {
-  background-color: #f6f6f6;
+  background-color: rgba(246, 246, 246, 0.15);
   padding-bottom: 80px;
+}
+.container--imageAndMenu--restaurant-img {
+  height: 300px;
+  width: 100%;
 }
 .container--imageAndMenu--menuAndHeading {
   background-color: #f6f6f6;
@@ -473,33 +981,12 @@ header .back-arrow a :hover {
   align-items: flex-start;
   justify-content: left;
   flex-direction: row;
+  width: 90%;
 }
-@media all and (min-width: 0px) {
-  .subheading {
-    width: 90%;
-  }
-}
-@media all and (min-width: 768px) and (max-width: 992px) {
-  .subheading {
-    justify-content: center;
-  }
-}
-@media all and (min-width: 992px) {
-  .subheading {
-    justify-content: center;
-  }
-}
-@media all and (min-width: 992px) {
-  footer {
-    width: 100%;
-    background-color: #353535;
-    /* padding: 5% 0; */
-    display: flex;
-    align-items: stretch;
-  }
-}
+
 footer {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
@@ -508,18 +995,16 @@ footer {
 }
 
 .footer__container {
-  /* width: 90%; */
-  margin: 5%;
+  width: 90%;
   display: flex;
   align-items: flex-start;
   justify-content: left;
   flex-direction: column;
   color: #fff;
-  font-family: "Roboto Regular", sans-serif;
   letter-spacing: 0.3px;
 }
 .footer__container__title {
-  font-family: "Shrikhand Regular", sans-serif;
+  font-family: "Shrikhand", cursive;
   font-size: x-large;
   margin-top: 18px;
 }
@@ -531,25 +1016,51 @@ footer {
   color: #fff;
 }
 
-@media all and (min-width: 0px) {
-  .container--restaurants__cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-}
-@media all and (min-width: 992px) {
-  .container--restaurants__cards {
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .container--howItWorks--cards {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     width: 90%;
+    justify-content: space-around;
+  }
+  .container--howItWorks--cards .explainer,
+  .container--howItWorks--cards .explainer--2 {
+    margin: 0 20px;
+  }
+  .container--imageAndMenu {
+    background-size: 0;
+  }
+  .container--imageAndMenu--menuAndHeading {
+    margin-top: -40px;
+    margin-bottom: 30px;
+    width: 90%;
+    border-radius: 40px;
+  }
+  .explainer,
+  .explainer--2 {
+    width: 30%;
+  }
+  .explainer .subheading,
+  .explainer--2 .subheading {
+    justify-content: center;
   }
 }
-
 @media all and (min-width: 992px) {
+  .subheading {
+    justify-content: center;
+  }
+  .explainer,
+  .explainer--2 {
+    width: 30%;
+  }
+  .container--restaurants__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
   .card {
     margin: 0px 15px;
     height: 400px;
@@ -563,97 +1074,11 @@ footer {
   .card__bottom {
     height: 25%;
   }
-}
-@media all and (min-width: 992px) {
-  .container--howItWorks--cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 90%;
-    justify-content: space-around;
-  }
-  .container--howItWorks--cards .explainer,
-  .container--howItWorks--cards .explainer--2 {
-    margin: 0 20px;
-  }
-}
-@media all and (min-width: 768px) and (max-width: 992px) {
-  .container--howItWorks--cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 90%;
-    justify-content: space-around;
-  }
-  .container--howItWorks--cards .explainer,
-  .container--howItWorks--cards .explainer--2 {
-    margin: 0 20px;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 992px) {
-  .container--imageAndMenu--menuAndHeading {
-    margin-top: -40px;
-    margin-bottom: 30px;
-    width: 90%;
-    border-radius: 40px;
-  }
-}
-@media all and (min-width: 992px) {
-  .container--imageAndMenu,
-  .container--imageAndMenu--menuAndHeading {
-    position: relative;
-  }
-  .container--imageAndMenu--menuAndHeading {
-    /* position: absolute; */
-    width: 50%;
-    border-radius: 40px;
-    margin-top: auto;
-  }
-  .container--imageAndMenu--restaurant-img img {
-    opacity: 0.7;
-  }
-}
-
-.container--order {
-  border-radius: 40px;
-  padding-bottom: 20px;
-}
-.container--imageAndMenu {
-  background-image: url("../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-  min-height: 100vh;
-  padding: 100px 0;
-}
-
-@media all and (max-width: 768px) {
-  .container--imageAndMenu {
-    padding: 0;
-    padding-top: 300px;
-    background-size: 100% 353px;
-    background-repeat: no-repeat;
-  }
-}
-@media all and (min-width: 0px) {
-  .container--imageAndMenu--restaurant-img {
-    height: 300px;
-    width: 100%;
-  }
-}
-@media all and (min-width: 992px) {
-  .container--imageAndMenu--restaurant-img {
-    height: 160vh;
-  }
-}
-
-@media all and (min-width: 992px) {
   .menu {
     height: 90%;
     width: 100%;
   }
   .menu__subheading {
-    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -663,25 +1088,61 @@ footer {
     width: 100%;
     margin: -10px 0 0 0;
   }
-  .menu__item {
+  .container--howItWorks--cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     width: 90%;
+    justify-content: space-around;
   }
-}
-
-@media all and (min-width: 768px) and (max-width: 992px) {
-  .explainer,
-  .explainer--2 {
-    width: 30%;
+  .container--howItWorks--cards .explainer,
+  .container--howItWorks--cards .explainer--2 {
+    margin: 0 20px;
   }
-}
-@media all and (min-width: 992px) {
-  .explainer,
-  .explainer--2 {
-    width: 30%;
+  .container--imageAndMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+    position: relative;
   }
-}
-
-@media all and (min-width: 992px) {
+  .container--imageAndMenu--restaurant-img {
+    width: 50%;
+    height: 100%;
+  }
+  .container--imageAndMenu--restaurant-img ::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(246, 246, 246, 0.35);
+  }
+  .container--imageAndMenu--restaurant-img img {
+    visibility: hidden;
+  }
+  .container--imageAndMenu--menuAndHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: auto;
+    margin-right: 30px;
+    position: relative;
+  }
+  .container--order {
+    border-radius: 40px;
+    padding-bottom: 20px;
+  }
   .footer__container {
     display: flex;
     align-items: flex-start;

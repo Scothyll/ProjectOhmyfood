@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Shrikhand";
+  src: url("../fonts/Shrikhand-Regular.ttf");
+}
+
+
+@import "./utils/variables";
 @import "./base/base";
-@import "./base/typography";
 
 @import "./utils/variables";
 @import "./utils/functions";
@@ -11,6 +21,5 @@
 @import "./layouts/card";
 @import "./layouts/header";
 @import "./layouts/container";
-@import "./layouts/headings";
 @import "./layouts/footer";
 @import "./layouts/responsive";
