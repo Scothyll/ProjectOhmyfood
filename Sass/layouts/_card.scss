@@ -37,10 +37,11 @@
     padding-left: 30px;
   }
 
-  &--2:hover {
+  &--2 {
     @extend .explainer;
+    &hover {
     background-color: $colour-primary-opaque;
-
+    }
     &--icon {
       color: $colour-primary;
     }
