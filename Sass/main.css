@@ -492,7 +492,11 @@ img {
   filter: brightness(110%);
 }
 
-.explainer, .explainer--2 {
+.explainer:hover, .explainer--1:hover, .explainer--2:hover {
+  background-color: rgba(147, 86, 220, 0.1);
+}
+
+.explainer, .explainer--1, .explainer--2:hover {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -527,11 +531,14 @@ img {
 .explainer--text {
   padding-left: 30px;
 }
-.explainer--2 {
+.explainer--2:hover {
   background-color: rgba(147, 86, 220, 0.1);
 }
-.explainer--2--icon {
+.explainer--2:hover--icon {
   color: #9356dc;
+}
+.explainer--1.hover {
+  background-color: rgba(147, 86, 220, 0.1);
 }
 
 .card {
@@ -882,7 +889,7 @@ header .back-arrow a :hover {
     width: 90%;
     justify-content: space-around;
   }
-  .container--howItWorks--cards .explainer, .container--howItWorks--cards .explainer--2 {
+  .container--howItWorks--cards .explainer, .container--howItWorks--cards .explainer--2:hover, .container--howItWorks--cards .explainer--1 {
     margin: 0 20px;
   }
   .container--imageAndMenu {
@@ -894,10 +901,10 @@ header .back-arrow a :hover {
     width: 90%;
     border-radius: 40px;
   }
-  .explainer, .explainer--2 {
+  .explainer, .explainer--2:hover, .explainer--1 {
     width: 30%;
   }
-  .explainer .subheading, .explainer--2 .subheading {
+  .explainer .subheading, .explainer--2:hover .subheading, .explainer--1 .subheading {
     justify-content: center;
   }
 }
@@ -905,7 +912,7 @@ header .back-arrow a :hover {
   .subheading {
     justify-content: center;
   }
-  .explainer, .explainer--2 {
+  .explainer, .explainer--2:hover, .explainer--1 {
     width: 30%;
   }
   .container--restaurants__cards {
@@ -949,7 +956,7 @@ header .back-arrow a :hover {
     width: 90%;
     justify-content: space-around;
   }
-  .container--howItWorks--cards .explainer, .container--howItWorks--cards .explainer--2 {
+  .container--howItWorks--cards .explainer, .container--howItWorks--cards .explainer--2:hover, .container--howItWorks--cards .explainer--1 {
     margin: 0 20px;
   }
   .container--imageAndMenu {

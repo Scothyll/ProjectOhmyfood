@@ -651,7 +651,7 @@ img {
 .explainer--text {
   padding-left: 30px;
 }
-.explainer--2 {
+.explainer--2:hover {
   background-color: rgba(147, 86, 220, 0.1);
 }
 .explainer--2--icon {
@@ -817,6 +817,7 @@ img {
 }
 .menu__item:hover .menu__item__text {
   width: 80%;
+  overflow: hidden;
 }
 .menu__item__price {
   display: flex;
@@ -840,7 +841,7 @@ img {
   width: 0%;
   height: 100%;
   transform: translateX(100px);
-  transition: ease-in-out 300ms;
+  transition: ease-in-out 500ms;
 }
 .menu__item__checkmark i {
   transform: rotate(-180deg);
@@ -848,7 +849,7 @@ img {
 }
 .menu__item:hover .menu__item__checkmark {
   transform: translateX(0);
-  width: 15%;
+  width: 30%;
 }
 .menu__item:hover i {
   transform: rotate(0deg);

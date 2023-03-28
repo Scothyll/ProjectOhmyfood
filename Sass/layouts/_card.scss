@@ -2,6 +2,9 @@
   transition: all 0.6s ease-in-out;
 }
 
+.explainer:hover {
+  background-color: $colour-primary-opaque;
+}
 .explainer {
   @include flexCenter(row);
   width: map-get($widths, "80Percent");
@@ -34,7 +37,7 @@
     padding-left: 30px;
   }
 
-  &--2 {
+  &--2:hover {
     @extend .explainer;
     background-color: $colour-primary-opaque;
 
@@ -42,6 +45,13 @@
       color: $colour-primary;
     }
   }
+
+  &--1 {
+    @extend .explainer; 
+    &.hover{
+      background-color: $colour-primary-opaque;
+    }
+  
 }
 
 .card {
