@@ -40,7 +40,7 @@
   &--2 {
     @extend .explainer;
     &hover {
-    background-color: $colour-primary-opaque;
+      background-color: $colour-primary-opaque;
     }
     &--icon {
       color: $colour-primary;
@@ -48,11 +48,11 @@
   }
 
   &--1 {
-    @extend .explainer; 
-    &.hover{
+    @extend .explainer;
+    &.hover {
       background-color: $colour-primary-opaque;
     }
-  
+  }
 }
 
 .card {
