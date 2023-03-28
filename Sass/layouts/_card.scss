@@ -57,6 +57,7 @@
 
 .card {
   box-shadow: $shadow-box;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
     box-shadow: $shadow-box-dark;
